@@ -1,0 +1,44 @@
+.showcase {
+    .flex {
+        justify-content: start;
+
+        .showcase__left {
+            .showcase__content {
+                h2 {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 60px;
+                    /* or 125% */
+
+                    letter-spacing: -0.02em;
+
+                    color: #000000;
+                }
+
+                p {
+                    padding-top: 20px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 31px;
+                    /* or 172% */
+
+                    letter-spacing: 0.02em;
+
+                    color: #494949;
+                }
+            }
+
+
+        }
+
+        .showcase__right {
+            padding-top: 54px;
+            position: relative;
+            bottom: -10px
+        }
+    }
+}
