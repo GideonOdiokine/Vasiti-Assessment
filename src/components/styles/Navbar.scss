@@ -79,3 +79,13 @@ header {
     }
 
 }
+
+@media(max-width:768px) {
+    header nav .flex ul {
+        display: none;
+    }
+
+    header .sub_nav_lis {
+        display: none
+    }
+}

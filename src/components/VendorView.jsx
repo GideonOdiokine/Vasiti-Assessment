@@ -1,17 +1,14 @@
 import React from "react";
-import Group from "../assets/grou.png";
-import "./styles/SectionView.scss";
+import img_5 from "../assets/img_5.png";
+import "./styles/VendorStyle.scss";
 
-const SectionView = () => {
+const VendorView = () => {
   return (
-    <div className="section_page">
+    <div className="vendor_section ">
       <div className="container flex">
-        <div className="left">
-          <img src={Group} alt="img" />
-        </div>
         <div className="right">
-          <h5>Tolu & Joy’s Experience</h5>
-          <h6>CUSTOMER</h6>
+          <h5 id="name">Josiah’s Experience</h5>
+          <h6>VENDOR</h6>
           <p>
             I had the best experience shopping with vasiti. Usability of the
             website was great, very good customer service, an all round great
@@ -36,9 +33,12 @@ const SectionView = () => {
             </svg>
           </button>
         </div>
+        <div className="left">
+          <img src={img_5} alt="img" />
+        </div>
       </div>
     </div>
   );
 };
 
-export default SectionView;
+export default VendorView;

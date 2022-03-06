@@ -17,7 +17,7 @@ const HeroContent = () => {
         </div>
         <div className="showcase__right">
           <div className="showcase_img">
-            <img src={heroImg} alt="people" />
+            <img src={heroImg} alt="people" id="showcase" />
           </div>
         </div>
       </div>

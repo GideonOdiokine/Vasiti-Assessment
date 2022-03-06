@@ -1,6 +1,6 @@
-.section_page {
+.vendor_section {
     // padding-top: 80px;
-    background: #222222;
+    background: #FFF8F5;
     position: relative;
     z-index: 999;
 
@@ -11,15 +11,13 @@
         .left {
             img {
                 position: relative;
-                bottom: -63px
+                bottom: -85px
             }
-
-
         }
 
         .right {
             width: 486px;
-            padding-top: 80px;
+            padding-top: 60px;
 
             &>h5 {
                 font-family: 'Inter', sans-serif;
@@ -33,7 +31,7 @@
                 letter-spacing: 0.01em;
                 justify-self: flex-end;
 
-                color: #FFFFFF;
+                color: #242120;
             }
 
             h6 {
@@ -45,7 +43,7 @@
                 font-weight: 500;
                 font-size: 13px;
                 line-height: 16px;
-                border: 1px solid #fff;
+                border: 1px solid #FF5C00;
                 border-radius: 4px;
                 padding: 4px 10px;
                 cursor: pointer;
@@ -53,21 +51,22 @@
 
                 letter-spacing: 0.02em;
 
-                color: #FFFFFF;
+                color: #FF5C00;
             }
 
             p {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: normal;
-                font-size: 16px;
-                line-height: 27px;
-
-                /* or*/
+                font-size: 18px;
+                line-height: 150%;
+                /* or 27px */
 
                 letter-spacing: 0.02em;
 
-                color: #FFFFFF;
+                /* vasiti-off-black */
+
+                color: #242120;
             }
 
             button {
@@ -83,10 +82,12 @@
                 letter-spacing: 0.2em;
                 text-transform: uppercase;
 
-                color: #FFFFFF;
+                color: #FF5C00;
                 border: none;
                 background: none;
                 text-align: left;
+                padding-bottom: 40px;
+
 
                 svg {
                     position: relative;
@@ -98,42 +99,17 @@
     }
 }
 
+
 @media(max-width:768px) {
-    .section_page .flex .left {
-        order: 1;
-
+    .vendor_section .flex .left {
+        order: -1;
     }
 
-    .section_page .flex .left img {
-
-
-        width: 398px;
-        left: -39px;
+    .vendor_section .flex .left img {
+        width: 100%;
     }
 
-    .showcase .flex .showcase__left .showcase__content h2 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 40px;
-        /* or 125% */
-
-        letter-spacing: -0.02em;
-
-        color: #000000;
+    #name {
+        font-size: 22px;
     }
-
-
-
-    #showcase_img {
-        width: 400px;
-        position: relative;
-        left: -60px;
-    }
-
-    // #img_small {
-    //     display: block;
-    // }
-
 }

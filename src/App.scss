@@ -26,3 +26,18 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+button {
+  cursor: pointer;
+}
+
+@media(max-width:768px) {
+
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+  }
+}

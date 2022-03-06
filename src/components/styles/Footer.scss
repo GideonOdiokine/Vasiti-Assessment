@@ -1,0 +1,160 @@
+.footer {
+    background: #25201D;
+    position: relative;
+    z-index: 99999;
+
+    padding-bottom: 40px;
+
+    .footer_top {
+        position: relative;
+        padding: 0 40px;
+
+        .flex {
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 100px;
+
+            .footer_img {
+                position: relative;
+                top: -40px
+            }
+
+            .subscribe {
+                padding-top: 60px;
+
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 40px;
+                    line-height: 40px;
+                    padding: 14px 0;
+                    /* or 100% */
+
+                    letter-spacing: -0.03em;
+
+                    color: #FFFFFF;
+                }
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 14px 0;
+
+                    /* or 143% */
+
+                    letter-spacing: 0.02em;
+
+                    color: #FFFFFF;
+                }
+
+                form {
+                    .form_group {
+                        width: 368px;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+
+                        input[type="text"] {
+                            width: 100%;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 16px;
+                            padding: 18px 20px;
+                            outline: none;
+                            position: relative;
+                            background: rgba(255, 255, 255, 0.2);
+                            border-radius: 6px;
+                            border: none;
+                            color: #fff;
+
+                            ::-webkit-input-placeholder {
+                                color: #fff;
+                            }
+                        }
+
+                        button {
+                            position: absolute;
+                            right: 6px;
+                            width: 119px;
+                            height: 42px;
+                            background: #FFFFFF;
+                            box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+                            border: none;
+                            border-radius: 4px;
+                            color: #242120;
+                            cursor: pointer
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .footer__bottom,
+    .flex {
+        align-items: flex-start;
+        padding: 20px 0;
+
+        .footer__links {
+            h6 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #FFFFFF;
+                padding: 10px 0;
+            }
+
+            nav ul li {
+                padding: 12px 0;
+
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .footer .footer_top {
+        padding: 0 0;
+    }
+
+    .footer .footer_top .flex .footer_img {
+        order: 1;
+        width: 398px;
+    }
+
+    .footer .footer_top .flex .footer_img img {
+        width: 100%;
+    }
+
+    .footer .footer_top .flex .subscribe form .form_group {
+        width: auto;
+    }
+
+    .footer__links {
+        padding-top: 20px
+    }
+}

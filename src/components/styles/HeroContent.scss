@@ -42,3 +42,15 @@
         }
     }
 }
+
+@media(max-width:768px) {
+    .showcase .showcase_img {
+        width: 100%;
+    }
+
+    .showcase .showcase_img img {
+        width: 388px;
+        position: relative;
+        left: -39px;
+    }
+}

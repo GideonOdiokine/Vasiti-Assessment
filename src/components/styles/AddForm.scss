@@ -1,0 +1,47 @@
+.form__wrapper {
+
+    position: absolute;
+    width: 527px;
+    height: 439px;
+    left: 30%;
+    top: 10px;
+    right: 50%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    z-index: 99999;
+
+    .form {
+        padding: 50px 20px;
+
+        h2 {
+            text-align: center;
+        }
+
+        .input-file-container {
+            position: relative;
+            width: 225px;
+        }
+
+        .form_upload {
+            #my-file {
+                display: none;
+            }
+        }
+
+
+        .js .input-file-trigger {
+            display: block;
+            padding: 14px 45px;
+            background: #39D2B4;
+            color: #fff;
+            font-size: 1em;
+            transition: all .4s;
+            cursor: pointer;
+        }
+
+
+
+
+    }
+
+}
